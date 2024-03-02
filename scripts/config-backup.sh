@@ -39,8 +39,7 @@ echo "$brew_casks" > "$casks_file"
 ##############
 crontab_dir="$HOME/.custom-config/crontab"
 mkdir -p $crontab_dir
-cron_table_contents=$(crontab -l)
-echo $cron_table_contents > $crontab_dir/crontab.txt
+crontab -l > $crontab_dir/crontab.txt
 
 
 ##############
