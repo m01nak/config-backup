@@ -1,0 +1,24 @@
+#!/bin/bash
+
+homebrew_dir="$HOME/.custom-config/homebrew"
+
+mkdir -p "$homebrew_dir"
+
+formulae_file="$homebrew_dir/homebrew-formulas.txt"
+casks_file="$homebrew_dir/homebrew-casks.txt"
+
+brew_formulae=$(brew list --formula)
+brew_casks=$(brew list --cask)
+
+echo "$brew_formulae" > "$formulae_file"
+echo "$brew_casks" > "$casks_file"
+
+cd "$homebrew_dir" || exit
+
+commit_date=$(date +%Y%m%d)
+git add .
+git commit -m "config backup $commit_date"
+
+# Push to remote repository
+git push origin main
+
