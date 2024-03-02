@@ -76,6 +76,7 @@ thefuck
 tidy-html5
 tree
 unixodbc
+watch
 webp
 wimlib
 xorgproto
