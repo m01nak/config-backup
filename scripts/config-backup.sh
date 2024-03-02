@@ -5,7 +5,7 @@
 #######
 zsh_dir="$HOME/.custom-config/zsh"
 mkdir -p $zsh_dir
-cp -f $HOME/.zshrc $zsh_dir
+cp -f $HOME/.zshrc $zsh_dir/zshrc_backup
 
 
 ############
@@ -27,7 +27,7 @@ echo "$brew_casks" > "$casks_file"
 cd $HOME/.custom_config
 
 commit_date=$(date +%Y%m%d%H%M%S)
-git add .
+git add --all
 git commit -m "config backup $commit_date"
 
 # Push to remote repository
