@@ -5,7 +5,7 @@
 ###########
 script_dir="$HOME/.custom-config/scripts"
 mkdir -p $script_dir
-cp -f ~/.sctiprs/*.sh $sctipt_dir 
+cp -f $HOME/.scripts/*.sh $sctipt_dir 
 
 
 #######
