@@ -1,5 +1,13 @@
 #!/bin/bash
 
+###########
+# SCRIPTS #
+###########
+script_dir="$HOME/.custom-config/scripts"
+mkdir -p $script_dir
+cp -f ~/.sctiprs/*.sh $sctipt_dir 
+
+
 #######
 # ZSH #
 #######
@@ -12,7 +20,6 @@ cp -f $HOME/.zshrc $zsh_dir/zshrc_backup
 # HOMEBREW #
 ############
 homebrew_dir="$HOME/.custom-config/homebrew"
-
 mkdir -p "$homebrew_dir"
 
 formulae_file="$homebrew_dir/homebrew-formulas.txt"
@@ -24,6 +31,10 @@ brew_casks=$(brew list --cask)
 echo "$brew_formulae" > "$formulae_file"
 echo "$brew_casks" > "$casks_file"
 
+
+##############
+# COMMITTING #
+##############
 cd $HOME/.custom_config
 
 commit_date=$(date +%Y%m%d%H%M%S)
