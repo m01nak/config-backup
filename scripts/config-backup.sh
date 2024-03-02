@@ -3,9 +3,9 @@
 ###########
 # SCRIPTS #
 ###########
-script_dir="$HOME/.custom-config/scripts"
-mkdir -p $script_dir
-cp -f $HOME/.scripts/*.sh $sctipt_dir 
+scripts_dir="$HOME/.custom-config/scripts"
+mkdir -p $scripts_dir
+cp -f $HOME/.scripts/*.sh $scripts_dir
 
 
 #######
@@ -13,13 +13,15 @@ cp -f $HOME/.scripts/*.sh $sctipt_dir
 #######
 zsh_dir="$HOME/.custom-config/zsh"
 mkdir -p $zsh_dir
-cp -f $HOME/.zshrc $zsh_dir/zshrc_backup
+cp -f $HOME/.zshrc $zsh_dir
+
 
 
 ############
 # HOMEBREW #
 ############
 homebrew_dir="$HOME/.custom-config/homebrew"
+
 mkdir -p "$homebrew_dir"
 
 formulae_file="$homebrew_dir/homebrew-formulas.txt"
@@ -31,11 +33,7 @@ brew_casks=$(brew list --cask)
 echo "$brew_formulae" > "$formulae_file"
 echo "$brew_casks" > "$casks_file"
 
-
-##############
-# COMMITTING #
-##############
-cd $HOME/.custom_config
+cd $HOME/.custom-config
 
 commit_date=$(date +%Y%m%d%H%M%S)
 git add --all
