@@ -33,6 +33,20 @@ brew_casks=$(brew list --cask)
 echo "$brew_formulae" > "$formulae_file"
 echo "$brew_casks" > "$casks_file"
 
+
+##############
+# CRON TABLE #
+##############
+crontab_dir="$HOME/.custom-config/crontab"
+mkdir -p $crontab_dir
+cron_table_contents=$(crontab -l)
+echo $cron_table_contents > $crontab_dir/crontab.txt
+
+
+##############
+# COMMITTING #
+##############
+
 cd $HOME/.custom-config
 
 commit_date=$(date +%Y%m%d%H%M%S)
