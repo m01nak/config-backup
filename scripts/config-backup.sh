@@ -1,5 +1,16 @@
 #!/bin/bash
 
+#######
+# ZSH #
+#######
+zsh_dir="$HOME/.custom-config/zsh"
+mkdir -p $zsh_dir
+cp -f $HOME/.zshrc $zsh_dir
+
+
+############
+# HOMEBREW #
+############
 homebrew_dir="$HOME/.custom-config/homebrew"
 
 mkdir -p "$homebrew_dir"
@@ -13,9 +24,9 @@ brew_casks=$(brew list --cask)
 echo "$brew_formulae" > "$formulae_file"
 echo "$brew_casks" > "$casks_file"
 
-cd "$homebrew_dir" || exit
+cd $HOME/.custom_config
 
-commit_date=$(date +%Y%m%d)
+commit_date=$(date +%Y%m%d%H%M%S)
 git add .
 git commit -m "config backup $commit_date"
 
