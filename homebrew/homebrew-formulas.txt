@@ -8,9 +8,12 @@ autoconf
 brotli
 ca-certificates
 cairo
+cask
 cheat
 cmatrix
+coreutils
 curl
+emacs
 fontconfig
 freetds
 freetype
@@ -19,6 +22,7 @@ gettext
 giflib
 glib
 gmp
+gnutls
 graphite2
 harfbuzz
 highway
@@ -26,10 +30,12 @@ htop
 icu4c
 imap-uw
 imath
+jansson
 jpeg-turbo
 jpeg-xl
 krb5
 libavif
+libevent
 libidn2
 liblinear
 libnghttp2
@@ -37,6 +43,7 @@ libpng
 libpq
 libsodium
 libssh2
+libtasn1
 libtiff
 libtool
 libunistring
@@ -57,12 +64,14 @@ maven
 mpdecimal
 ncurses
 neofetch
+nettle
 nmap
 oniguruma
 openexr
 openjdk
 openldap
 openssl@3
+p11-kit
 pcre
 pcre2
 php
@@ -75,6 +84,8 @@ sqlite
 thefuck
 tidy-html5
 tree
+tree-sitter
+unbound
 unixodbc
 watch
 webp
