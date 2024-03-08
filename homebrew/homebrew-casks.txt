@@ -6,6 +6,7 @@ discord
 folx
 gemini
 git-credential-manager-core
+google-chrome
 intellij-idea-ce
 keepingyouawake
 keka
