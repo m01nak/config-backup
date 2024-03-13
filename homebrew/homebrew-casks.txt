@@ -16,3 +16,4 @@ tiles
 tor-browser
 visual-studio-code
 vlc
+vmware-fusion
