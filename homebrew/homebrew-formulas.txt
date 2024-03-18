@@ -5,6 +5,7 @@ apr-util
 argon2
 aspell
 autoconf
+bottom
 brotli
 ca-certificates
 cairo
@@ -12,6 +13,7 @@ cask
 cheat
 cmatrix
 coreutils
+cpufetch
 curl
 docker
 docker-completion
@@ -20,9 +22,11 @@ fontconfig
 freetds
 freetype
 gd
+genact
 gettext
 giflib
 glib
+glow
 gmp
 gnutls
 graphite2
@@ -85,6 +89,7 @@ screenresolution
 sqlite
 thefuck
 tidy-html5
+tldr
 tree
 tree-sitter
 unbound
