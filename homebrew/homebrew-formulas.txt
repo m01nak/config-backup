@@ -26,7 +26,6 @@ genact
 gettext
 giflib
 glib
-glow
 gmp
 gnutls
 graphite2
