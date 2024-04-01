@@ -1,13 +1,14 @@
 arc
+betterdisplay
 bitwarden
 coteditor
 discord
 folx
 git-credential-manager-core
-google-chrome
 intellij-idea-ce
 keepingyouawake
 keka
+postman
 sony-ps-remote-play
 stats
 tiles
