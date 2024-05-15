@@ -118,4 +118,5 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # aliases
 alias config-backup='/bin/bash /Users/moinak/.scripts/run-config-backup.sh'
 alias please='sudo'
+alias launch-pd='sh ~/.scripts/Launch_Parallels.command'
 

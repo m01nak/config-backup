@@ -1,3 +1,4 @@
+alfred
 arc
 betterdisplay
 bitwarden
@@ -11,9 +12,9 @@ keepingyouawake
 keka
 postman
 sony-ps-remote-play
+stats
 tiles
 tor-browser
 visual-studio-code
 vlc
-vmware-fusion
 whatsapp
