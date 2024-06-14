@@ -9,6 +9,7 @@ keepingyouawake
 keka
 postman
 stats
+steam
 tiles
 tor-browser
 visual-studio-code
