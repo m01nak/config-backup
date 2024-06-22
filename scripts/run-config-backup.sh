@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /Users/moinak/.scripts
+
 #####################################
 # Determining whether to run update #
 #####################################
