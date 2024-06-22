@@ -6,6 +6,10 @@
 today=`date +%Y%m%d`
 last_run_date=`cat config_backup_last_run_date.txt`
 
+if [ -z "$last_run_date" ]; then
+  last_run_date='0'
+fi
+
 echo "Today is $today"
 echo "Last run on: $last_run_date"
 
