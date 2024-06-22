@@ -7,9 +7,10 @@ intellij-idea-ce
 iterm2
 keepingyouawake
 keka
+microsoft-auto-update
+microsoft-teams
 postman
 stats
-steam
 tiles
 tor-browser
 visual-studio-code
