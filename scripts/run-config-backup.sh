@@ -1,8 +1,21 @@
 #!/bin/bash
 
+#####################################
+# Determining whether to run update #
+#####################################
 today=`date +%Y%m%d`
+last_run_date=`cat config_backup_last_run_date.txt`
 
-echo "Run date is $today"
+echo "Today is $today"
+echo "Last run on: $last_run_date"
+
+if ![[ $today -gt $last_run_date]]
+then
+  echo "Script has already run today, hence exiting."
+  exit 1;
+fi
+
+
 
 ###########
 # SCRIPTS #
@@ -68,4 +81,4 @@ git push origin main
 # UPDATING LAST RUN DATE #
 ##########################
 
-echo `date +%Y%m%d` > 
+echo `date +%Y%m%d` > config_backup_last_run_date.txt
