@@ -26,7 +26,7 @@ fi
 ###########
 # SCRIPTS #
 ###########
-scripts_dir="$HOME/.custom-config/scripts"
+scripts_dir=/Users/moinak/.custom-config/scripts
 mkdir -p $scripts_dir
 rm $scripts_dir/*.sh
 cp -f $HOME/.scripts/*.sh $scripts_dir
