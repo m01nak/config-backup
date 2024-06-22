@@ -2,4 +2,4 @@
 #0 */3 * * * brew update && brew upgrade > $HOME/.logs/auto-brew.log
 
 #daily backup of homebrew package list to github
-* * * * * /bin/bash /Users/moinak/.scripts/run-config-backup.sh > /dev/null 2>&1
+* * * * * /bin/bash /Users/moinak/.scripts/run-config-backup.sh
