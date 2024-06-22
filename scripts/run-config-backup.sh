@@ -2,7 +2,7 @@
 
 today=`date +%Y%m%d`
 
-echo 'Run date is ${today}'
+echo Run date is $today
 
 ###########
 # SCRIPTS #
