@@ -86,5 +86,5 @@ git push origin main
 ##########################
 # UPDATING LAST RUN DATE #
 ##########################
-
-echo `date +%Y%m%d` > config_backup_last_run_date.txt
+cd /Users/moinak/.scripts
+echo `date +%Y%m%d` > ./config_backup_last_run_date.txt
