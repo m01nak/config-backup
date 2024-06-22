@@ -29,22 +29,22 @@ fi
 scripts_dir=/Users/moinak/.custom-config/scripts
 mkdir -p $scripts_dir
 rm $scripts_dir/*.sh
-cp -f $HOME/.scripts/*.sh $scripts_dir
+cp -f /Users/moinak/.scripts/*.sh $scripts_dir
 
 
 #######
 # ZSH #
 #######
-zsh_dir="$HOME/.custom-config/zsh"
+zsh_dir=/Users/moinak/.custom-config/zsh
 mkdir -p $zsh_dir
-cp -f $HOME/.zshrc $zsh_dir
+cp -f /Users/moinak/.zshrc $zsh_dir
 
 
 
 ############
 # HOMEBREW #
 ############
-homebrew_dir="$HOME/.custom-config/homebrew"
+homebrew_dir="/Users/moinak/.custom-config/homebrew"
 
 mkdir -p "$homebrew_dir"
 
@@ -62,7 +62,7 @@ echo "$brew_casks" > "$casks_file"
 ##############
 # CRON TABLE #
 ##############
-crontab_dir="$HOME/.custom-config/crontab"
+crontab_dir="/Users/moinak/.custom-config/crontab"
 mkdir -p $crontab_dir
 crontab -l > $crontab_dir/crontab.txt
 
@@ -72,7 +72,7 @@ crontab -l > $crontab_dir/crontab.txt
 # COMMITTING #
 ##############
 
-cd $HOME/.custom-config
+cd /Users/moinak/.custom-config
 
 commit_date=$(date +%Y%m%d%H%M%S)
 git add --all
