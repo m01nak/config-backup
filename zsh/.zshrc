@@ -121,3 +121,5 @@ alias please='sudo'
 alias launch-pd='sh ~/.scripts/Launch_Parallels.command'
 alias ubuntu-vm='ssh -p 8100 moinak@localhost'
 alias vim=nvim
+alias lh='ls -ltrh'
+

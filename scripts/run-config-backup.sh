@@ -2,7 +2,7 @@
 
 today=`date +%Y%m%d`
 
-echo $today
+echo 'Run date is ${today}'
 
 ###########
 # SCRIPTS #
@@ -62,3 +62,10 @@ git commit -m "config backup $commit_date"
 # Push to remote repository
 git push origin main
 
+
+
+##########################
+# UPDATING LAST RUN DATE #
+##########################
+
+echo `date +%Y%m%d` > 
