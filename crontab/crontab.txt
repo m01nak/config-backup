@@ -1,5 +1,9 @@
+#test
+#* * * * * echo `date +'%Y%m%d%H%M%S' > /Users/moinak/Desktop/test_log.txt 2>> /Users/moinak/Desktop/error_log.txt
+
 #daily auto update of brew and installed packages
 #0 */3 * * * brew update && brew upgrade > $HOME/.logs/auto-brew.log
 
 #daily backup of homebrew package list to github
 #* * * * * /bin/bash /Users/moinak/.scripts/run-config-backup.sh
+
