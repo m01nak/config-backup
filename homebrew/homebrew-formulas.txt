@@ -90,6 +90,7 @@ python@3.12
 readline
 rtmpdump
 screenresolution
+speedtest-cli
 sqlite
 thefuck
 tidy-html5
