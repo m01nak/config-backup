@@ -76,7 +76,7 @@ cd /Users/moinak/.custom-config
 
 commit_date=$(date +%Y%m%d%H%M%S)
 git add --all
-git commit -m "config backup $commit_date"
+git commit -m "config backup $commit_date" > /dev/null
 
 # Push to remote repository
 git push origin main
