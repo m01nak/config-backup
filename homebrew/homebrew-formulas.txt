@@ -5,6 +5,7 @@ apr-util
 argon2
 aspell
 autoconf
+boost
 bottom
 brotli
 ca-certificates
@@ -34,6 +35,7 @@ highway
 htop
 icu4c
 imath
+innoextract
 jansson
 jpeg-turbo
 jpeg-xl

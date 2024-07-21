@@ -1,6 +1,5 @@
 arc
 bitwarden
-citrix-workspace
 coteditor
 folx
 git-credential-manager
@@ -19,4 +18,3 @@ tor-browser
 visual-studio-code
 vlc
 whatsapp
-zoom
