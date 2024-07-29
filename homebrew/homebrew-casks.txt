@@ -1,6 +1,5 @@
 arc
 bitwarden
-coteditor
 folx
 git-credential-manager
 git-credential-manager-core
