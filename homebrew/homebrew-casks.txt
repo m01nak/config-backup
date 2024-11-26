@@ -1,6 +1,5 @@
 arc
 bitwarden
-coteditor
 folx
 git-credential-manager
 git-credential-manager-core
@@ -10,9 +9,9 @@ iterm2
 keepingyouawake
 keka
 microsoft-auto-update
-microsoft-teams
 postman
 stats
+sublime-text
 tiles
 tor-browser
 visual-studio-code

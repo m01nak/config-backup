@@ -19,6 +19,7 @@ curl
 docker
 docker-completion
 emacs
+fastfetch
 fontconfig
 freetds
 freetype
@@ -33,7 +34,8 @@ graphite2
 harfbuzz
 highway
 htop
-icu4c
+icu4c@75
+icu4c@76
 imath
 innoextract
 jansson
@@ -41,6 +43,7 @@ jpeg-turbo
 jpeg-xl
 krb5
 libavif
+libdeflate
 libevent
 libidn2
 liblinear
@@ -75,7 +78,6 @@ maven
 mpdecimal
 msgpack
 ncurses
-neofetch
 neovim
 nettle
 nmap
@@ -88,10 +90,11 @@ p11-kit
 pcre2
 php
 pixman
+python-packaging
 python@3.12
+python@3.13
 readline
 rtmpdump
-screenresolution
 speedtest-cli
 sqlite
 thefuck
