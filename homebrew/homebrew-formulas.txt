@@ -3,11 +3,11 @@ aom
 apr
 apr-util
 argon2
-aspell
 autoconf
 boost
 bottom
 brotli
+c-ares
 ca-certificates
 cairo
 cask
@@ -79,8 +79,11 @@ mpdecimal
 msgpack
 ncurses
 neovim
+net-snmp
 nettle
 nmap
+node
+nvm
 oniguruma
 openexr
 openjdk
