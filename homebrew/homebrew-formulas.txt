@@ -34,7 +34,6 @@ graphite2
 harfbuzz
 highway
 htop
-icu4c@75
 icu4c@76
 imath
 innoextract

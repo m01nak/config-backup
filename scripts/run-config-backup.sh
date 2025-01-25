@@ -21,19 +21,14 @@ then
   exit 1;
 fi
 
-###############
-# BREW UPDATE #
-###############
-echo "Running brew update..."
+##########
+# UPDATE #
+##########
+echo "Updating packages..."
 brew update
-
-
-################
-# BREW UPGRADE #
-################
-echo "Running brew upgrade..."
 brew upgrade
 brew upgrade --greedy
+brew cleanup
 
 ###########
 # SCRIPTS #
