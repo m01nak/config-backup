@@ -33,6 +33,7 @@ brew update
 ################
 echo "Running brew upgrade..."
 brew upgrade
+brew upgrade --greedy
 
 ###########
 # SCRIPTS #
