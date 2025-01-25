@@ -21,7 +21,18 @@ then
   exit 1;
 fi
 
+###############
+# BREW UPDATE #
+###############
+echo "Running brew update..."
+brew update
 
+
+################
+# BREW UPGRADE #
+################
+echo "Running brew upgrade..."
+brew upgrade
 
 ###########
 # SCRIPTS #
