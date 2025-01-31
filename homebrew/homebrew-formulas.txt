@@ -18,6 +18,7 @@ cpufetch
 curl
 docker
 docker-completion
+dos2unix
 emacs
 fastfetch
 fontconfig
