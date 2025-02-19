@@ -88,4 +88,4 @@ git push origin main
 cd /Users/moinak/.scripts
 echo "$today" > ./config_backup_last_run_date.txt
 
-echo "Backup process completed successfully! ✅"
+echo "Update and Backup process completed successfully! ✅"
