@@ -1,5 +1,6 @@
 arc
 bitwarden
+dupeguru
 folx
 git-credential-manager
 git-credential-manager-core
