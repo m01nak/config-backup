@@ -12,6 +12,7 @@ keka
 microsoft-auto-update
 postman
 stats
+steam
 sublime-text
 tiles
 tor-browser
