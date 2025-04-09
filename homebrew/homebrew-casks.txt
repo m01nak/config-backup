@@ -9,6 +9,7 @@ intellij-idea-ce
 iterm2
 keepingyouawake
 keka
+maccy
 microsoft-auto-update
 postman
 stats
