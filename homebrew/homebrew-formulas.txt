@@ -37,7 +37,6 @@ icu4c@76
 icu4c@77
 imath
 innoextract
-jansson
 jpeg-turbo
 jpeg-xl
 krb5
