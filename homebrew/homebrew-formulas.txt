@@ -46,6 +46,8 @@ libevent
 libidn2
 liblinear
 libnghttp2
+libnghttp3
+libngtcp2
 libpng
 libpq
 libsodium
@@ -94,6 +96,7 @@ python@3.12
 python@3.13
 readline
 rtmpdump
+simdjson
 speedtest-cli
 sqlite
 thefuck
