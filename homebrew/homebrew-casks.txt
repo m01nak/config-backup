@@ -3,16 +3,13 @@ dupeguru
 folx
 git-credential-manager
 git-credential-manager-core
-google-chrome
 intellij-idea-ce
 iterm2
 keepingyouawake
 keka
 maccy
-microsoft-auto-update
 postman
 stats
-steam
 sublime-text
 tiles
 tor-browser
