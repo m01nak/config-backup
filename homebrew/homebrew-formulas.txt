@@ -85,6 +85,7 @@ nvm
 oniguruma
 openexr
 openjdk
+openjph
 openldap
 openssl@3
 p11-kit
@@ -108,9 +109,11 @@ unbound
 unibilium
 unixodbc
 utf8proc
+uvwasi
 watch
 webp
 wimlib
 xorgproto
 xz
+yyjson
 zstd
