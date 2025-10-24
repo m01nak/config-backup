@@ -16,6 +16,7 @@ cmatrix
 coreutils
 cpufetch
 curl
+dav1d
 dos2unix
 emacs
 fastfetch
