@@ -116,5 +116,4 @@ webp
 wimlib
 xorgproto
 xz
-yyjson
 zstd
