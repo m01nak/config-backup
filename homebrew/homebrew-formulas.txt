@@ -107,6 +107,7 @@ tidy-html5
 tldr
 tree
 tree-sitter
+tree-sitter@0.25
 unbound
 unibilium
 unixodbc
