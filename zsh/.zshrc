@@ -125,3 +125,7 @@ alias ll='ls -ltrh'
 alias goto='cd'
 alias py='python3'
 
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
