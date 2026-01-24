@@ -35,7 +35,6 @@ harfbuzz
 highway
 htop
 icu4c@76
-icu4c@77
 icu4c@78
 imath
 innoextract
