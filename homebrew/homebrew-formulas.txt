@@ -1,3 +1,4 @@
+ada-url
 ant
 aom
 apr
@@ -20,6 +21,7 @@ dav1d
 dos2unix
 emacs
 fastfetch
+fmt
 fontconfig
 freetds
 freetype
@@ -32,6 +34,7 @@ gmp
 gnutls
 graphite2
 harfbuzz
+hdrhistogram_c
 highway
 htop
 icu4c@76
@@ -67,6 +70,7 @@ libxext
 libxrender
 libzip
 little-cms2
+llhttp
 lpeg
 lua
 luajit
