@@ -101,7 +101,6 @@ python-packaging
 python@3.12
 python@3.13
 readline
-rtmpdump
 simdjson
 speedtest-cli
 sqlite
