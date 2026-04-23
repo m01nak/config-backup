@@ -79,7 +79,9 @@ lz4
 lzo
 m4
 maven
+merve
 mpdecimal
+nbytes
 ncurses
 neovim
 net-snmp
@@ -103,6 +105,7 @@ python@3.13
 python@3.14
 readline
 simdjson
+simdutf
 speedtest-cli
 sqlite
 thefuck
