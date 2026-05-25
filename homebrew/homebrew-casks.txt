@@ -3,9 +3,9 @@ git-credential-manager
 git-credential-manager-core
 google-chrome
 intellij-idea-ce
-iterm2
 keepingyouawake
 keka
+pcsx2
 postman
 tiles
 tor-browser
