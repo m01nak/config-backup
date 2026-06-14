@@ -47,6 +47,7 @@ krb5
 libavif
 libdeflate
 libevent
+libffi
 libidn2
 liblinear
 libnghttp2
