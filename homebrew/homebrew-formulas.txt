@@ -43,6 +43,7 @@ imath
 innoextract
 jpeg-turbo
 jpeg-xl
+json-c
 krb5
 libavif
 libdeflate
@@ -55,6 +56,7 @@ libnghttp3
 libngtcp2
 libpng
 libpq
+libpsl
 libsodium
 libssh2
 libtasn1

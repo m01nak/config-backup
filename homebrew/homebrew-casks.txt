@@ -1,3 +1,4 @@
+claude
 folx
 git-credential-manager
 git-credential-manager-core
