@@ -28,6 +28,7 @@ freetype
 gd
 genact
 gettext
+gh
 giflib
 glib
 gmp
