@@ -3,7 +3,6 @@ folx
 git-credential-manager
 git-credential-manager-core
 google-chrome
-intellij-idea-ce
 keepingyouawake
 keka
 pcsx2

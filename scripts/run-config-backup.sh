@@ -28,7 +28,7 @@ echo "Updating packages..."
 
 # Run brew commands with dot animation
 brew update
-brew upgrade 
+yes | brew upgrade 
 brew cleanup
 
 ###########

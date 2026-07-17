@@ -124,6 +124,7 @@ alias vim=nvim
 alias ll='ls -ltrh'
 alias goto='cd'
 alias py='python3'
+alias pip='pip3'
 
 
 
