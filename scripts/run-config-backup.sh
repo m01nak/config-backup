@@ -82,6 +82,9 @@ git commit -m "config backup $commit_date"
 # Push to remote repository
 git push origin main
 
+# running mole to for cleanup
+mo clean
+
 ##########################
 # UPDATING LAST RUN DATE #
 ##########################
