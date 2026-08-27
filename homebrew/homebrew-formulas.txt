@@ -111,7 +111,6 @@ python@3.14
 readline
 simdjson
 simdutf
-speedtest-cli
 sqlite
 thefuck
 tidy-html5
