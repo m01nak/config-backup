@@ -83,7 +83,7 @@ git commit -m "config backup $commit_date"
 git push origin main
 
 # running mole to for cleanup
-mo clean
+#mo clean
 
 ##########################
 # UPDATING LAST RUN DATE #
