@@ -101,6 +101,7 @@ openjdk
 openjph
 openldap
 openssl@3
+openssl@4
 p11-kit
 pcre2
 php
