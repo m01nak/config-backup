@@ -41,6 +41,7 @@ highway
 htop
 icu4c@76
 icu4c@78
+icu4c@79
 imath
 innoextract
 jpeg-turbo
