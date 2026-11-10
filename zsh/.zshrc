@@ -130,3 +130,14 @@ alias pip='pip3'
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/moinak/.lmstudio/bin"
+# End of LM Studio CLI section
+
+
+# opencode
+export PATH=/Users/moinak/.opencode/bin:$PATH
+
+# Created by `pipx` on 2026-11-06 15:15:07
+export PATH="$PATH:/Users/moinak/.local/bin"

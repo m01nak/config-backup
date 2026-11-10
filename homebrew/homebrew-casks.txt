@@ -5,6 +5,7 @@ git-credential-manager-core
 google-chrome
 keepingyouawake
 keka
+lm-studio
 microsoft-teams
 pcsx2
 postman

@@ -86,6 +86,8 @@ lzo
 m4
 maven
 merve
+mlx
+mlx-c
 mole
 mpdecimal
 nbytes
@@ -96,6 +98,7 @@ nettle
 nmap
 node
 nvm
+ollama
 oniguruma
 openexr
 openjdk
@@ -106,6 +109,7 @@ openssl@4
 p11-kit
 pcre2
 php
+pipx
 pixman
 python-packaging
 python@3.12
