@@ -127,7 +127,6 @@ alias py='python3'
 alias pip='pip3'
 
 
-
 # Load Angular CLI autocompletion.
 source <(ng completion script)
 
